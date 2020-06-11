@@ -3,7 +3,7 @@
 
 using std::vector, std::string;
 
-void withoutVector() {
+void main1() {
     std::cout << "Please enter a sequence of positive integers, each in a separate line." << std::endl;
     std::cout << "End you input by typing -1." << std::endl;
 
@@ -40,7 +40,7 @@ void withoutVector() {
     std::cout << found << "." << std::endl;
 }
 
-void withVector() {
+void main2() {
     std::cout << "Please enter a sequence of positive integers, each in a separate line." << std::endl;
     std::cout << "End you input by typing -1." << std::endl;
 
@@ -72,10 +72,10 @@ void withVector() {
 int main() {
 
     std::cout << "***** without vectors *****" << std::endl;
-    withoutVector();
+    main1();
 
     std::cout << "***** with vectors *****" << std::endl;
-    withVector();
+    main2();
 
     return 0;
 }
